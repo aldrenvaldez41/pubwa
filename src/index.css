@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div[style*="position: fixed"][style*="bottom: 1rem"][style*="right: 1rem"] {
+  display: none; /* or visibility: hidden; */
+}

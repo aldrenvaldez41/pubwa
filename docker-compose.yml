@@ -1,0 +1,10 @@
+services:
+ web:
+ build:
+ context: .
+ args:
+ VITE_SUPABASE_URL: https://rzeriudmjobziczdzuxm.supabase.co
+ VITE_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ6ZXJpdWRtam9iemljemR6dXhtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjczMjMwMjcsImV4cCI6MjA4Mjg5OTAyN30.O3BG_fz2khyhgr1GnWHhupLgfWhg07JPnZ4DV9_HHOw
+ ports:
+ - "80:80"
+ restart: unless-stopped
