@@ -2,5 +2,5 @@ services:
   web:
     image: aldrenvaldez41/buildwithaldren:latest
     ports:
-      - "80:80"
+      - "8080:80"
     restart: unless-stopped
